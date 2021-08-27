@@ -1,27 +1,23 @@
-<!DOCTYPE html> <html lang="en"> <body>
-    <head> <title>resumen</title> <link rel="stylesheet" href="css/resumen.css"> </head> 
-    <body> 
-        <div id="page"> <section class="container"> <h1>Resumen ultima hora:</h1>
+<!DOCTYPE html> <html lang="es"> <body>
+    <head> 
+      <title>resumen</title>
+      <link rel="stylesheet" href="css/resumen.css">
+      <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="page"> <section class="container">
+          <h1>Resumen última hora:</h1>
             <table style="width:100%">
-                <tr>
+                <tr id="table_header">
                   <th>Hora</th>
                   <th>Temperatura (C)</th>
-                  <th>Humedad (\% relativo)</th>
-                  <th>Presion (mB)</th>
-                  <th>Direccion viento</th>
-                  <th>Velocidad viento (kmh)</th>
-                  <th>Agua caida (mm)</th>
+                  <th>Humedad (% relativo)</th>
+                  <th>Presión (mB)</th>
+                  <th>Dirección viento</th>
+                  <th>Velocidad viento (km/h)</th>
+                  <th>Agua caída (mm)</th>
                 </tr>
-                <tr>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                    <td>50</td>
-                </tr>
-                <tr>
+                <tr id="0">
                     <td>Jill</td>
                     <td>Smith</td>
                     <td>50</td>
@@ -30,7 +26,16 @@
                     <td>50</td>
                     <td>50</td>
                 </tr>
-                <tr>
+                <tr id="1">
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                    <td>50</td>
+                </tr>
+                <tr id="2">
                     <td>Jill</td>
                     <td>Smith</td>
                     <td>50</td>
@@ -39,16 +44,7 @@
                     <td>50</td>
                     <td>50</td>
                   </tr>
-                  <tr>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                    <td>50</td>
-                  </tr>
-                  <tr>
+                  <tr id="3">
                     <td>Jill</td>
                     <td>Smith</td>
                     <td>50</td>
@@ -59,5 +55,5 @@
                   </tr>
               </table>
         </section>
-        <footer id="bodyfooter"> <pre>Ultima actualizacion: hh:mm:ss</pre> </footer> </div> 
+        <footer id="timestamp"> <b>Última actualización:</b> <pre>hh:mm:ss</pre> </footer> </div> 
 </body> </html>
